@@ -37,11 +37,11 @@ td.empty {color: #f44336;font-style: italic;text-align: center;padding:3em 0;}
 .is_dir .size:before {content: "--"; font-size:14px;color:#333;}
 .is_dir .download{visibility: hidden}
 a.delete {display:inline-block;
-	background: url(images/remove.png) no-repeat scroll 0 0px;
+	background: url(../images/remove.png) no-repeat scroll 0 0px;
 	color:#d00;	margin-left: 23px;font-size:11px;padding:26px 0 0px 30px;
 }
 .name {
-	background: url(images/gears-configuration-tool.png) no-repeat scroll 0px 12px;
+	background: url(../images/gears-configuration-tool.png) no-repeat scroll 0px 12px;
 	padding:15px 0 10px 40px;
 }
 .is_dir .name {
