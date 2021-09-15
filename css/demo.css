@@ -1,0 +1,127 @@
+body {font-family: "Open Sans", Arial, sans-serif;font-size: 14px;/* width:1024; */padding:1em;margin:0;background: #232323;}
+th {font-weight: normal;color: #9d9d9d;background-color: #3f3f3f;padding:.5em 1em .5em .2em;/* text-align: left; */cursor:pointer;user-select: none;}
+
+th .indicator {margin-left: 6px }
+thead {
+	border-top: 1px solid #82CFFA;
+	border-bottom: 1px solid #96C4EA;
+	background: red;
+	border-left: 1px solid #E7F2FB;
+	border-right: 1px solid #E7F2FB;
+	}
+#top {height:52px;}
+#mkdir {display:inline-block;float:right;padding-top:16px;}
+label { display:block; font-size:11px; color:#555;}
+#file_drop_target {width:500px; padding:12px 0; border: 4px dashed #ccc;font-size:12px;color:#ccc;
+	text-align: center;float:right;margin-right:20px;}
+#file_drop_target.drag_over {border: 4px dashed #96C4EA; color: #96C4EA;}
+#upload_progress {padding: 4px 0;}
+#upload_progress .error {color:#a00;}
+#upload_progress > div { padding:3px 0;}
+.no_write #mkdir, .no_write #file_drop_target {display: none}
+.progress_track {display:inline-block;width:200px;height:10px;border:1px solid #333;margin: 0 4px 0 10px;}
+.progress {background-color: #82CFFA;height:10px; }
+footer {font-size:11px; color:#bbbbc5; padding:4em 0 0;text-align: left;}
+footer a, footer a:visited {color:#bbbbc5;}
+#breadcrumb { padding-top:34px; font-size:15px; color:#aaa;display:inline-block;float:left;}
+#folder_actions {width: 50%;float:right;}
+a, a:visited { color:#70eb75;text-decoration: none}
+a:hover {text-decoration: underline}
+.sort_hide{ display:none;}
+table {width:100%;}
+thead {max-width: 1024px}
+td {padding:.2em 1em .2em .2em;height:30px;font-size:12px;white-space: nowrap;text-align: -webkit-center;color: #5d5d5d;}
+td.first {font-size:14px;white-space: normal;}
+td.empty {color: #f44336;font-style: italic;text-align: center;padding:3em 0;}
+.is_dir .size {color:transparent;font-size:0;}
+.is_dir .size:before {content: "--"; font-size:14px;color:#333;}
+.is_dir .download{visibility: hidden}
+a.delete {display:inline-block;
+	background: url(images/remove.png) no-repeat scroll 0 0px;
+	color:#d00;	margin-left: 23px;font-size:11px;padding:26px 0 0px 30px;
+}
+.name {
+	background: url(images/gears-configuration-tool.png) no-repeat scroll 0px 12px;
+	padding:15px 0 10px 40px;
+}
+.is_dir .name {
+	background: url(=) no-repeat scroll 0px 10px;
+	padding:15px 0 10px 40px;
+}
+.download1 {
+	border-radius: 37px;
+background: #94ff0000;
+    color: #a4ff00;
+    border: 1px solid #56ff0085;
+    padding: 0.675rem 1.2rem;
+    width: 100%;
+	background-repeat: no-repeat;
+background-position: center center;
+}
+.download2 {
+	border-radius: 37px;
+    border: 1px solid #56ff0085;
+    padding: 0.675rem 1.2rem;
+    width: 100%;
+    background-color: #94ff0000;
+    border-color: #ff0033;
+    color: #ff0036;
+	background-repeat: no-repeat;
+background-position: center center;
+}
+.download3 {
+	border-radius: 37px;
+	border: 1px solid #56ff0085;
+	padding: 0.675rem 1.2rem;
+	width: 100%;
+	background-color: #94ff0000;
+	border-color: #00ff7d;
+	color: #00ff7d;
+	background-repeat: no-repeat;
+background-position: center center;
+}
+td.\37 mar {
+    text-shadow: 0 0 2px #ff0033, 0 0 30px #ff0033, 5px 9px 5px #333, 0 0 150px #ff0033;
+    color: #ff0033;
+	}
+td.khdar {
+    text-shadow: 0 0 2px #000, 0 0 30px #a6ff00, 0px 0px 5px #a6ff00, 0 0 150px #a6ff00;
+    color: #a6ff00;
+	}
+img#Image1 {
+    width: 30px;
+}
+input[type="text"] {
+    HEIGHT: 34PX;
+    background: #262626;
+    border: 1px solid #363636;
+    text-align: center;
+    text-shadow: 0 0 2px #ff0000, 0 0 30px #ff0000, 5px 9px 5px #333, 0 0 150px #ff0000;
+    color: #FF0000;
+}
+
+td.per {color: #ff9e00;}
+select#pet-select {
+    height: 38px;
+    BORDER: 1PX #232323;
+    BACKGROUND: #302f2f;
+    COLOR: #a6ff00;
+    TEXT-ALIGN: center;
+}
+
+
+p1 {
+text-shadow: 0 0 2px #000, 0 0 30px #09c465, 0px 0px 5px #00ff7d, 0 0 150px #00ff7d;
+    color: #00ff7d;}
+p2 {
+text-shadow: 0 0 2px #ff0033, 0 0 30px #ff0033, 5px 9px 5px #333, 0 0 150px #ff0033;
+    color: #ff0033;
+	}
+td.l3a9a {
+text-shadow: 0 0 2px #000, 0 0 30px #01ff7c, 0px 0px 5px #01ff7c, 0 0 150px #01ff7c;
+color: #00ff7d;
+}
+td.final {
+text-shadow: 0 0 2px #000, 0 0 30px #00d1ff, 0px 0px 5px #00d1ff, 0 0 150px #00d1ff;
+color: #00d1ff;
+}
